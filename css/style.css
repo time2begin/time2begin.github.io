@@ -63,6 +63,12 @@ color: #000000;}
 .price{background-color: #e5e5e5;}
 .pagination{list-style: none;}
 
+.artic{color: #aeaeae}
+.photos{list-style: none;}
+
+.table{border: 3px solid black;
+border-collapse: collapse;}
+
 .collums {color: #000000;
 background-color: #f8f5f2;
 background-image: url("../pics/collums.png");
