@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "PT Sans Narrow" , Arial , Sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  background-color: #000000;
+  background-image: url("../pics/Layer.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+ .inner-page{ color: #000000;
+  background-color: #f8f5f2;
+background-image: url("../pics/collums.png");
+background-repeat: repeat;
+background-position: 0 0;}
+
+a {text-decoration: none;}
+
+.main-navigation {font-size: 16px;
+line-height: 20px;
+color: #ffffff;
+background-color: #000000;}
+
+.site-nav,
+.user-nav {list-style: none;}
+
+.site-nav a,
+.user-nav a {color: #ffffff;}
+
+.site-nav a:hover,
+.site-nav a:focus,
+.user-nav a:hover,
+.user-nav a:focus {background-color: #242424;}
+
+.feature-list {list-style: none;}
+
+.feature-item { text-align: center;}
+.feature-item h3{
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.store {list-style: none;}
+
+.filer-proizvod{list-style: none;}
+
+.collums {color: #000000;
+background-color: #f8f5f2;
+background-image: url("../pics/collums.png");
+background-position: 0 0;
+background-repeat: repeat;
+}
+
+.collums h2 {font-size: 30px;
+line-height: 42px;}
+
+.news time {text-transform: none;}
+
+.news ul {list-style: none;}
+
+.gallery-content {background-color: #cccccc;
+  border: 7px solid white;
+}
+
+.button {
+  font: inherit;
+  color: white;
+  background-color: #000000;
+  border: none;
+  text-align: center;
+  vertical-align: middle;
+}
+.button:hover,
+.button:focus,
+.button:active {background-color: #663d15;}
+
+.zapiss input {border: 2px solid #000000;
+font: inherit;
+background-color: transparent;}
+
+.zapiss input:focus {border-color: #663d15;}
+
+.footer {color: white;
+  background-color: #212121;
+background-image: url("../pics/footer.png");}
+
+.underline {color: #ffffff;
+text-decoration: underline;}
+
+.underline:hover,
+.underline:focus {text-decoration: none;}
+
+.go-friend a {color: white;}
+
+.go-friend ul {list-style: none;
+text-decoration: none;
+}
+.social-button {color: white;}
+
+.modal {color: #000000;
+background-color: f8f5f2;
+background-image: url("../pics/collums.png");
+background-repeat: repeat;
+background-position: 0 0;}
+
+.modal h2 {font-size: 30px;
+line-height: 42px;}
+
+.user-login input{border: 2px solid black;
+font: inherit;
+background-color: transparent;
+}
+
+.user-login input:focus {border-color: #663d15;}
+
+.checkbox:hover,
+.checkbox:focus {color: #663d15;}
+
+.restore {color: black;
+text-decoration: underline;}
+.restore:hover,
+.restore:focus {text-decoration: none;}
