@@ -37,21 +37,19 @@
 
  <main class="main">
 <h1>СРЕДСТВА ДЛЯ УХОДА</h1>
-<div class="breadcrumbs"> <!-- тут можно без дива -->
-
-<ul class="store">
+<ul class="breadcrumbs">
 
  <li><a href="index.html">ГЛАВНАЯ</a></li>
- <li>МАГАЗИН</li>
- <li>СРЕДСТВА ДЛЯ УХОДА</li>
+ <li><a href="catalog.html">МАГАЗИН</a></li>
+ <li class="breadcrumbs-current">СРЕДСТВА ДЛЯ УХОДА</li>
 </ul>
-</div>
+
 
 <section class="filter">
 
   <form  action="index.html" method="post">
   <fieldset><legend><h2>ПРОИЗВОДИТЕЛИ:</h2></legend> <br>
-  <ul class="filer-proizvod">
+  <ul class="filter proizvod">
   <li> <input type="checkbox" name="proizvod" id="BAXTER"> <label for="BAXTER">BAXTER of california</label></li>
   <li><input type="checkbox" name="proizvod" id="MR NATTY"> <label for="MR NATTY">MR NATTY</label></li>
   <li><input type="checkbox" name="proizvod" id="SUAVECITO"> <label for="SUAVECITO">SUAVECITO</label></li>
@@ -61,7 +59,7 @@
 </ul> </fieldset>
 
   <fieldset> <legend><h2>ВИДЫ ТОВАРА:</h2></legend>
-<ul>
+<ul class="filter types">
 
   <li><input type="radio" name="vid" id="BRITVA"> <label for="BRITVA">БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ</label></li>
 <li><input type="radio" name="vid" id="CARE"> <label for="CARE">СРЕДСТВА ДЛЯ УХОДА</label></li>
@@ -75,36 +73,36 @@
 
 </section>
 
-<section class="items">
-  <ul>
-    <li> <h3> <a href="barbershop-item.html"> <span>НАБОР ДЛЯ ПУТЕШЕСТВИЙ</span> <span>"BAXTER"</span> </a> </h3>
-<p> <a href="barbershop-item.html"> <img src="" alt="фотка товара"> </a></p>
-<p class="price">2900 <a class="button" href="#">КУПИТЬ</a></p>
+<section class="catalog">
+  <ul class="catalog-list">
+    <li>  <a class="catalog-item-name" href="barbershop-item.html"><h3> <span>НАБОР ДЛЯ ПУТЕШЕСТВИЙ</span> <span>"BAXTER"</span>  </h3>
+<p>  <img src="pics/1item.jpg" alt="фотка товара" width="220" height="165"> </a></p>
+<p class="price">2900 ₽ <a class="button" href="#">КУПИТЬ</a></p>
     </li>
 
-    <li> <h3> <a href="barbershop-item.html"> <span>УНИВЕРСАЛЬНЫЙ КОНДИЦИОНЕР</span> <span>"BAXTER"</span> </a> </h3>
-  <p> <a href="barbershop-item.html"> <img src="" alt="фотка товара"> </a></p>
-  <p class="price">1900 <a class="button" href="#">КУПИТЬ</a></p>
+    <li> <a class="catalog-item-name" href="barbershop-item.html"><h3>  <span>УНИВЕРСАЛЬНЫЙ КОНДИЦИОНЕР</span> <span>"BAXTER"</span>  </h3>
+  <p>  <img src="pics/2item.jpg" alt="фотка товара" width="220" height="165"> </a></p>
+  <p class="price">750 ₽ <a class="button" href="#">КУПИТЬ</a></p>
     </li>
 
-    <li> <h3> <a href="barbershop-item.html"> <span>ГЕЛЬ ДЛЯ ВОЛОС</span> <span>"SUAVECITO"</span> </a> </h3>
-<p> <a href="barbershop-item.html"> <img src="" alt="фотка товара"> </a></p>
-<p class="price">2220 <a class="button" href="#">КУПИТЬ</a></p>
+    <li> <a class="catalog-item-name" href="barbershop-item.html"><h3>  <span>ГЕЛЬ ДЛЯ ВОЛОС</span> <span>"SUAVECITO"</span> > </h3>
+<p>  <img src="pics/3item.jpg" alt="фотка товара" width="220" height="165"> </a></p>
+<p class="price">290 ₽ <a class="button" href="#">КУПИТЬ</a></p>
     </li>
 
-    <li> <h3> <a href="barbershop-item.html"> <span>ГЛИНА ДЛЯ УКЛАДКИ ВОЛОС</span> <span>"american crew"</span> </a> </h3>
-<p> <a href="barbershop-item.html"> <img src="" alt="фотка товара"> </a></p>
-<p class="price">1500 <a class="button" href="#">КУПИТЬ</a></p>
+    <li><a class="catalog-item-name" href="barbershop-item.html"> <h3>  <span>ГЛИНА ДЛЯ УКЛАДКИ ВОЛОС</span> <span>"american crew"</span>  </h3>
+<p>  <img src="pics/4item.jpg" alt="фотка товара" width="220" height="165"> </a></p>
+<p class="price">500 ₽ <a class="button" href="#">КУПИТЬ</a></p>
     </li>
 
-    <li> <h3> <a href="barbershop-item.html"> <span>ГЕЛЬ ДЛЯ УКЛАДКИ</span> <span>"american crew"</span> </a> </h3>
-<p> <a href="barbershop-item.html"> <img src="" alt="фотка товара"> </a></p>
-<p class="price">1000 <a class="button" href="#">КУПИТЬ</a></p>
+    <li><a class="catalog-item-name" href="barbershop-item.html"> <h3>  <span>ГЕЛЬ ДЛЯ УКЛАДКИ</span> <span>"american crew"</span>  </h3>
+<p>  <img src="pics/5item.jpg" alt="фотка товара" width="220" height="165"> </a></p>
+<p class="price">300 ₽ <a class="button" href="#">КУПИТЬ</a></p>
     </li>
 
-    <li> <h3> <a href="barbershop-item.html"> <span>НАБОР ДЛЯ БРИТЬЯ</span> <span>"BAXTER"</span> </a> </h3>
-<p> <a href="barbershop-item.html"> <img src="" alt="фотка товара"> </a></p>
-<p class="price">4900 <a class="button" href="#">КУПИТЬ</a></p>
+    <li><a class="catalog-item-name" href="barbershop-item.html" > <h3>  <span>НАБОР ДЛЯ БРИТЬЯ</span> <span>"BAXTER"</span>  </h3>
+<p>  <img src="pics/6item.jpg" alt="фотка товара" width="220" height="165"> </a></p>
+<p class="price">3900 ₽ <a class="button" href="#">КУПИТЬ</a></p>
     </li>
   </ul>
 
