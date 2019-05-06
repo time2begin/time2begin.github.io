@@ -40,7 +40,7 @@ align-items: center;}
 .nav-wrapper{
   width: 100%;
 margin-bottom: 60px;
-background-color: #000000;}
+background-color: #000000; }
 
 .container{width: 940px;
 margin: 0 auto;
@@ -107,11 +107,14 @@ margin-bottom: 35px;
 .collums h2 {font-size: 30px;
 line-height: 42px;}
 
-.news{width: 380px;}
+.news{width: 380px; padding: 0;}
 
 .news time {text-transform: none;}
 
-.news ul {list-style: none;}
+.news ul {list-style: none;
+  padding: 0;
+}
+
 
 .gallery{width: 300px;}
 .gallery-content {
