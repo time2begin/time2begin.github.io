@@ -130,7 +130,11 @@ justify-content: space-between;}
 justify-content: space-between;}
 
 .news{width: 380px; padding: 0;}
+.news-list{margin: 0;
+margin-bottom: 25px; }
+.news-item {margin-bottom: 25px}
 .news h2{margin: 0; margin-bottom: 30px;}
+.news-item p{margin: 0px; }
 .news time {text-transform: none;}
 
 .news ul {list-style: none;
@@ -146,7 +150,7 @@ justify-content: space-between;}
 }
 .photo-zal{border: 7px solid white;}
 
-.button {
+.button {display: inline-block; padding: 10px 30px; margin-right: 16px;
   font: inherit;
   color: white;
   background-color: #000000;
