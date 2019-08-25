@@ -81,15 +81,32 @@ justify-content: space-between;}
 width: 20px; height: 20px; background-color: white; margin-left: -10px; transform: rotate(45deg);}
 .feature-item{margin:  0 px;}
 
-.breadcrumbs {list-style: none; padding: 0px;}
+.breadcrumbs {list-style: none; padding: 0px; display: flex; flex-wrap: wrap; justify-content: flex-start;}
 .breadcrumbs a{text-decoration: none;
 color: #000000;}
 .breadcrumbs a:hover,
 .breadcrumbs a:focus{text-decoration: underline;}
 .breadcrumbs-current{color: #aba9a7;}
-
+.breadcrumbs li{position: relative; margin-right: 42px;
+}
+.breadcrumbs li::after{
+  content: "";
+  position: absolute;
+  top: 7px;
+  right: -25px;
+  width: 8px;
+  height: 8px;
+  background-color: #000000;
+  transform: rotate(45deg);
+}
+.breadcrumbs li:last-child{margin-right: 0;}
+.breadcrumbs-current::after{display: none;}
 .filter{list-style: none;}
-
+.filter legend {margin-bottom: 26px;}
+.filter fieldset {padding: 0px; margin: 0px; margin-bottom: 30px; border: none;}
+.filter ul{padding: 0px; margin: 0px;}
+.proizvod li {margin-bottom: 19px;}
+.types li {margin-bottom: 19px;}
 .catalog-list{list-style: none;
 }
 .catalog-item-name {text-decoration: none;
